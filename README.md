@@ -73,7 +73,7 @@ python realestate.py
 This executes the full analysis pipeline and renders plots using your active Matplotlib backend.
 
 ## Key dependencies
-- Python 3.10+
+- Python 3.10+ (tested locally here with Python 3.12)
 - pandas
 - numpy
 - matplotlib
