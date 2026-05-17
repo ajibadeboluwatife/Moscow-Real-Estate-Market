@@ -177,7 +177,6 @@ def annotate_corner(ax, text, loc="upper right"):
 def robust_iqr(series):
     q1, q2, q3 = series.quantile([0.25, 0.50, 0.75])
     return pd.Series({"q25": q1, "median": q2, "q75": q3})
-
 raw = {name: pd.read_csv(DATA_DIR / filename) for name, filename in REQUIRED_FILES.items()}
 
 secondary = raw["secondary"].copy()
